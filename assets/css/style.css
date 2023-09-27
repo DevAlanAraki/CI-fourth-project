@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /* Reset some default styles */
 * {
     margin: 0;
@@ -7,14 +9,15 @@
 
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 90%;
+    height: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -22,10 +25,14 @@ body {
 /* Header styles */
 header {
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    height: 150px;
+    width: 100%;
 }
 
 .logo img {
-    height: 50px;
+    height: 9rem;
 }
 
 nav ul.nav {
@@ -37,11 +44,11 @@ nav ul.nav li.nav-item {
 }
 
 nav ul.nav li.nav-item a.nav-link {
-    color: #007BFF;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav ul.nav li.nav-item a.nav-link:hover {
-    color: #0056b3;
+    color: #d4d4d4;
 }
